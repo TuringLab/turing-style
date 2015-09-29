@@ -1,0 +1,24 @@
+{
+  "name": "turing-style",
+  "version": "0.0.0",
+  "authors": [
+    "hpgmiskin@gmail.com"
+  ],
+  "description": "Style files for TuringLab websites",
+  "main": "less/main.less",
+  "moduleType": [],
+  "license": "MIT",
+  "homepage": "www.turinglab.co.uk",
+  "private": false,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "bootstrap": "~3.3.5",
+    "font-awesome": "~4.4.0"
+  }
+}
