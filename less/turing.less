@@ -1,0 +1,94 @@
+// these variables should be placed in global variables
+
+/*
+Base
+Layout
+Module
+State
+Theme
+*/
+
+.full {
+  height: 100%;
+}
+
+.wide {
+    width: 100%;
+}
+
+/* =============================================================================
+Colour Classes
+============================================================================= */
+
+.blue {
+  color: @fakeBlue;
+}
+.yellow {
+  color: @turingYellow;
+}
+.white {
+  color: @white;
+}
+
+/* =============================================================================
+Section Styles
+============================================================================= */
+
+
+.blue-section {
+  background-color: @fakeBlue;
+}
+.white-section {
+  background-color: @white;
+  p {
+    color: @darkGrey;
+  }
+  h5 {
+    color: @white;
+    font-weight: 100;
+  }
+}
+
+/* =============================================================================
+Useful classes
+============================================================================= */
+
+.vertical-center {
+  -ms-transform: translateY(-50%);
+  -webkit-transform: translateY(-50%);
+  position: relative;
+  top: 50%;
+  transform: translateY(-50%);
+}
+.info_paragraph {
+  padding-bottom: 30px;
+}
+
+/* =============================================================================
+Override Classes
+============================================================================= */
+
+
+p {
+  font-size: 15px;
+}
+section {
+  min-height: 100%;
+}
+.team-member {
+  img {
+    max-height: 225px;
+  }
+}
+.section-heading {
+  padding-bottom: 40px;
+}
+.social-buttons {
+  padding: 20px;
+}
+.detail-text {
+  margin: 10px;
+}
+.large {
+  font-size: 16px;
+}
