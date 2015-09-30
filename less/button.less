@@ -9,57 +9,34 @@ Buttons
   display: block;
 }
 
-.btn-turing{
-  .btn-mixin-basic(none);
-}
+// .btn-turing{
+//   .btn-mixin-basic(none);
+// }
 
-.btn-turing-blue {
-  .btn-mixin-basic(1px solid @turingBlue);
-  &:hover {
-    border-color: @turingYellow;
-  }
-}
-
-//.btn-turing a, .btn-turing-blue a {
-//  color: inherit;
-//  font-size: 21px;
-//  line-height: 25px;
-//  &:hover {
-//    text-decoration: none;
-//  }
-//}
+// .btn-turing-blue {
+//   .btn-mixin-basic(1px solid @turingBlue);
+//   &:hover {
+//     border-color: @turingYellow;
+//   }
+// }
 
 .btn-padding {
   padding: 12px 20px;
 }
 
-.btn-turing-basic {
-  color: @fakeBlue;
+.btn-turing {
+  color: @turingBlue;
   background-color: white;
   margin-top: 40px;
   border: none;
-  color: #2f7ac7;
+
+  .btn-lg {
+    font-size: 21px;
+    line-height: 25px;  
+  }
 }
 
-.btn-link .btn-turing-basic  {
-  color: inherit;
-  font-size: 21px;
-  line-height: 25px;
-}
-
-.btn-link:hover {
+.btn-turing:hover {
   text-decoration: none;
   color: @turingYellow;
-}
-
-.btn-turing-basic:hover {
-  text-decoration: none;
-  color: @turingYellow;
-}
-
-.btn-link {
-  width: 200px;
-  height: 50px;
-  margin: 0 auto;
-  display: block;
 }
